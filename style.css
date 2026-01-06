@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Text:wght@200..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header_nav {
+    height: 60px;
+    width: 100%;
+    background-color: #E8EAF6;
+}
+
+.header_img img {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.header_menu img {
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+}
+
+.images_heading {
+    display: flex;
+    gap: 20px;
+}
+
+.header_heading h1 {
+    font-size: 18px;
+    margin-top: 21px;
+}
+
+#home,
+#noti,
+#help,
+#dash,
+#query {
+    height: 25px;
+    width: 25px;
+    transform: scale(1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#home:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#noti:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#help:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#dash:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#query:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+.header_img2 {
+
+    display: flex;
+    gap: 80px;
+    justify-content: right;
+    margin-right: 120px;
+    margin-top: -40px;
+}
+
+.login_circle {
+    height: 45px;
+    width: 45px;
+    border-radius: 30px;
+    background: linear-gradient(to right, #05044D, blue);
+    margin-left: 95%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.info h4 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+
+}
+
+.sec_header {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    gap: 60px;
+
+}
+
+.sec_header h3 {
+    color: #666666;
+}
+
+.user_img img {
+
+    height: 30px;
+    width: 30px;
+    margin-top: 12px;
+}
+
+.box {
+    height: 35px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: #E9F5EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.box .small_box {
+    height: 15px;
+    width: 15px;
+    background-color: #4CAF50;
+    border-radius: 30px;
+
+}
+
+.letter {
+    color: #67BB6B;
+}
+
+.sub {
+    display: flex;
+    margin-left: 150px;
+    gap: 20px;
+}
+
+.sub h3 {
+    margin-top: 15px;
+}
+
+.home_img img {
+    height: 18px;
+    width: 18px;
+}
+
+.home {
+    display: flex;
+    gap: 10px;
+}
+
+.title {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+.title p {
+    font-size: 18px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.selecters select {
+    height: 50px;
+    width: 300px;
+}
+
+.aca p {
+    font-size: 16px;
+}
+
+.selecters select {
+    font-size: 16px;
+}
+
+select {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.button button {
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1867C0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.button button:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.button button {
+    color: white;
+    font-size: 16px;
+
+}
+
+.user_detail {
+    height: 60px;
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+.sub_user {
+    display: flex;
+    gap: 100px;
+}
+
+.sub_user span {
+    color: #0000FF;
+
+    font-weight: bold;
+}
+
+.grid-container {
+    display: grid;
+
+
+    grid-template-columns: repeat(3, 400px);
+
+
+    column-gap: 12px;
+    row-gap: 12px;
+
+
+    justify-content: center;
+
+    padding: 12px 0;
+}
+
+
+.card {
+    width: 400px;
+    max-width: 400px;
+    margin: 0;
+    height: 200px;
+    background-color: #F6E7ED;
+    border-radius: 10px;
+}
+
+.teacher_name p {
+    margin: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.progress-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+
+    background: conic-gradient(#dcdcdc 0% 20%,
+            #1e6fd9 20% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-circle span {
+    width: 100px;
+    height: 100px;
+    background: #F6E7ED;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    color: #1e6fd9;
+    font-size: 16px;
+}
+
+.sub_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.BOX {
+    height: 40px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: #D2C8CD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.lect_attend p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.progress-circle1 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+
+    background: conic-gradient(#dcdcdc 0% 26.83%,
+            #1e6fd9 26.83% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-circle1 span {
+    width: 100px;
+    height: 100px;
+    background: #F6E7ED;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    color: #1e6fd9;
+    font-size: 16px;
+}
+
+.progress-circle2 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+
+    background: conic-gradient(#dcdcdc 0% 27.27%,
+            #1e6fd9 27.27% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-circle2 span {
+    width: 100px;
+    height: 100px;
+    background: #F6E7ED;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    color: #1e6fd9;
+    font-size: 16px;
+}
+
+.progress-circle3 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+
+    background: conic-gradient(#dcdcdc 0% 53.33%,
+            #1e6fd9 53.33% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-circle3 span {
+    width: 100px;
+    height: 100px;
+    background: #F6E7ED;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    color: #1e6fd9;
+    font-size: 16px;
+}
+
+.progress-circle4 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+
+    background: conic-gradient(#dcdcdc 0% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-circle4 span {
+    width: 100px;
+    height: 100px;
+    background: #F6E7ED;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    color: #1e6fd9;
+    font-size: 16px;
+}
+
+.progress-circle5 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+
+    background: conic-gradient(#dcdcdc 0% 23.68%,
+            #1e6fd9 23.68% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-circle5 span {
+    width: 100px;
+    height: 100px;
+    background: #F6E7ED;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    color: #1e6fd9;
+    font-size: 16px;
+}
+
+.progress-circle6 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+
+    background: conic-gradient(#dcdcdc 0% 36.36%,
+            #1e6fd9 36.36% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-circle6 span {
+    width: 100px;
+    height: 100px;
+    background: #F6E7ED;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    color: #1e6fd9;
+    font-size: 16px;
+}
+
+.progress-circle7 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+
+    background: conic-gradient(#dcdcdc 0% 57.14%,
+            #1e6fd9 57.14% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-circle7 span {
+    width: 100px;
+    height: 100px;
+    background: #F6E7ED;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    color: #1e6fd9;
+    font-size: 16px;
+}
+
+.progress-circle8 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+
+    background: conic-gradient(#dcdcdc 0% 30%,
+            #1e6fd9 30% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-circle8 span {
+    width: 100px;
+    height: 100px;
+    background: #F6E7ED;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    color: #1e6fd9;
+    font-size: 16px;
+}
+
+.progress-circle9 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+
+    background: conic-gradient(#dcdcdc 0% 32.62%,
+            #1e6fd9 32.62% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.progress-circle9 span {
+    width: 100px;
+    height: 100px;
+    background: #F6E7ED;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    color: #1e6fd9;
+    font-size: 16px;
+}
+
+.progress-circle10 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+
+    background: conic-gradient(#dcdcdc 0% 28.29%,
+            #1e6fd9 28.29% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-circle10 span {
+    width: 100px;
+    height: 100px;
+    background: #F6E7ED;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    color: #1e6fd9;
+    font-size: 16px;
+}
+
+.overall p {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 20px;
+}
